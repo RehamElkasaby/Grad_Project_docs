@@ -1,0 +1,4 @@
+-  [[Recommendation Engines]] + Data Pipeline = Recommendation Systems
+ - machine learning algorithm to make recommendation predictions.
+ - identify things that a user may like based on products/services that they've interacted with in the past.
+ - provide a way of surfacing new content that a user might like but didn't know to search for.
