@@ -12,6 +12,10 @@ In order to determine if a user will like a movie, all you need to do is take th
 
 - **Advantages:** 
 	- One of the main benefits of collaborative filtering is that you don't need to know any metadata about the item and you don't need to do any market segmentation of users.
+	- no domain knowledge
+	- There's also serendipity. Imagine that you are on a movie site, and only watch Sci-Fi movies, because you like them. Instead of always recommending Sci-Fi movies do you, which might get a bit repetitive, by looking at what other users who watch Sci-Fi also watch, the site might recommend a couple of fantasy movies or maybe some action movies, because those other users also like those types of movies.
+	- Great starting point for hybrid
+
 
 ### Matrix Factorization:
 matrix factorization, which works as follows:
@@ -64,4 +68,7 @@ in predication, we use (U and V) to get A
 	Our key train feature should be *user*/item
 	Our indices train feature should be *itemID*/userId
 	Our values train feature should be *rating*
-	
+
+
+### # Issues with Collaborative Filtering
+- **Cold start problem** 
