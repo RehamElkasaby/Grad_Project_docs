@@ -10,12 +10,19 @@
 		1. Freelancers Features:
 			1. category
 			2. address / city : irrelevant in case of developer
-			3. rating: **TODO**-> find how to calculate rating.
+			3. rating: **TODO**-> find how to calculate rating. ([weighted average - algorithm used to calculate 5 star ratings - Stack Overflow](https://stackoverflow.com/questions/10196579/algorithm-used-to-calculate-5-star-ratings))
 		2. Tasks Features:
 			1. category
 			2. location : irrelevant in case of developer
 			3. status
 			4. Description -> tags: task description should be generated to tags (**classification problem**), try to get data from Arabic like خمسات/مستقل (**Web scrapping**)
+		Plan:
+			1. Decide what features to use from database and what to make . ([weighted average - algorithm used to calculate 5 star ratings - Stack Overflow](https://stackoverflow.com/questions/10196579/algorithm-used-to-calculate-5-star-ratings))
+			2. web scrapping from مستقل to have tags and description
+			3. build a tag classification system.
+			4. make a dataset (a .csv file) using Excel. 
+			5. Decide on a recommendation system type
+			6. Build a recommendation system
 	search :
 	- light FM model
 	- FAISS (Facebook AI Similarity Search)
@@ -24,3 +31,4 @@
 		2. Client Features / Task Features?:
 		
 1. [[Chatbot]]
+	1. Source :([Mastering Chatbots with Botpress, Rasa3, RAG & LLMs Flowise | Udemy](https://www.udemy.com/course/mastering-chatbots-using-botpress-rasa-and-transformers/?couponCode=24T3FS41524))
