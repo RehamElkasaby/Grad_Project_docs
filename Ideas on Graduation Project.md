@@ -23,9 +23,12 @@
 			4. make a dataset (a .csv file) using Excel. 
 			5. Decide on a recommendation system type
 			6. Build a recommendation system
+			7. Evaluation metrics ([Evaluation Metrics for Recommender Systems | by Claire Longo | Towards Data Science](https://towardsdatascience.com/evaluation-metrics-for-recommender-systems-df56c6611093))
+			8. Deployment
 	search :
 	- light FM model
 	- FAISS (Facebook AI Similarity Search)
+	- Mahout-recommender
 	b. Client/Freelancers recommender : shows freelancers to client based on the open tasks, (shows top rated freelancers in each category in the beginning )
 		1. Freelancers Features:
 		2. Client Features / Task Features?:
